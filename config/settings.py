@@ -72,24 +72,24 @@ TEMPLATES = [
         },
     },
 ]
+#DATABASES = {
+    #   'default': {
+    #        'ENGINE': 'django.db.backends.postgresql',
+    #        'NAME': 'gestion_transport',      # Le nom que vous venez de créer
+    #        'USER': 'postgres',               # Votre utilisateur PostgreSQL
+   #         'PASSWORD': 'hh', # Mot de passe de PostgreSQL
+   #         'HOST': 'localhost',
+   #         'PORT': '5432',
+  #     }
+ #  }
+
+
 DATABASES = {
-       'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'gestion_transport',      # Le nom que vous venez de créer
-            'USER': 'postgres',               # Votre utilisateur PostgreSQL
-            'PASSWORD': 'hh', # Mot de passe de PostgreSQL
-            'HOST': 'localhost',
-            'PORT': '5432',
+     'default': {
+           'ENGINE': 'django.db.backends.sqlite3',
+          'NAME': BASE_DIR / 'db.sqlite3',
        }
-   }
-
-
- #DATABASES = {
-     #'default': {
-         #  'ENGINE': 'django.db.backends.sqlite3',
-        #  'NAME': BASE_DIR / 'db.sqlite3',
-     #  }
-  #}
+  }
 
 LANGUAGE_CODE = 'fr-fr'
 TIME_ZONE = 'Africa/Casablanca'
