@@ -1,13 +1,12 @@
 import os
 from pathlib import Path
-from dotenv import load_dotenv
+
 
 # ⭐ MODIFICATION IMPORTANTE ⭐
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Charge le .env avec le chemin ABSOLU
-env_path = BASE_DIR / '.env'
-load_dotenv(env_path)
+
 
 # ⭐ AJOUTEZ CES LIGNES POUR DÉBOGUER ⭐
 #print(" SECRET_KEY chargée :", bool(os.getenv('SECRET_KEY')))
@@ -18,7 +17,7 @@ SECRET_KEY = 'sEyqbNROphOD3VRSV9nxr6TObWuFL36X5MZ1ffS9MZycGQJb3ab-OKZxFEYz64nOS6
 
 DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 #ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '.ondigitalocean.app,localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '.onrender.com,localhost,127.0.0.1').split(',')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -50,7 +49,7 @@ CSRF_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.ondigitalocean.app',  # ⭐ AJOUTÉ
+    'https://*.onrender.com',  # ⭐ AJOUTÉ
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'http://localhost:8000', 
@@ -108,7 +107,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = [
-    "https://*.ondigitalocean.app",  # ⭐ AJOUTÉ
+    "https://*.onrender.com",  # ⭐ AJOUTÉ
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
