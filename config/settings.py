@@ -94,16 +94,16 @@ DATABASES = {
 import os
 
 # Configuration PostgreSQL Render
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DATABASE_NAME', 'gestion_transport'),
-        'USER': os.getenv('DATABASE_USER', 'gestion_transport_user'),
-        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'PBvmXKbKtfCWBcE3xYBkemp3otBjCCav'),
-        'HOST': os.getenv('DATABASE_HOST', 'dpg-d4jdvf95pdvs739ckri0-a'),
-        'PORT': os.getenv('DATABASE_PORT', '5432'),
-    }
-}
+#DATABASES = {
+ #   'default': {
+ #       'ENGINE': 'django.db.backends.postgresql',
+ #       'NAME': os.getenv('DATABASE_NAME', 'gestion_transport'),
+ #       'USER': os.getenv('DATABASE_USER', 'gestion_transport_user'),
+ #       'PASSWORD': os.getenv('DATABASE_PASSWORD', 'PBvmXKbKtfCWBcE3xYBkemp3otBjCCav'),
+ #       'HOST': os.getenv('DATABASE_HOST', 'dpg-d4jdvf95pdvs739ckri0-a'),
+  #      'PORT': os.getenv('DATABASE_PORT', '5432'),
+  #  }
+#}
 
 LANGUAGE_CODE = 'fr-fr'
 TIME_ZONE = 'Africa/Casablanca'
