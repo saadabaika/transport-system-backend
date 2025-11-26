@@ -49,7 +49,8 @@ CSRF_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.onrender.com',  # ⭐ AJOUTÉ
+    'https://transport-system-frontend-nsao.onrender.com',
+    'https://transport-system-backend-7lv6.onrender.com',
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'http://localhost:8000', 
@@ -107,12 +108,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = [
-    "https://*.onrender.com",  # ⭐ AJOUTÉ
+    "https://transport-system-frontend-nsao.onrender.com",
+    "https://transport-system-backend-7lv6.onrender.com",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False   # ← FALSE
+CORS_ALLOW_ALL_ORIGINS = True   # ← FALSE
+CORS_ALLOW_CREDENTIALS = True
 
 # REST Framework
 REST_FRAMEWORK = {
