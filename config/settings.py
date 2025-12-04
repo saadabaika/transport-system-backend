@@ -17,7 +17,8 @@ SECRET_KEY = 'sEyqbNROphOD3VRSV9nxr6TObWuFL36X5MZ1ffS9MZycGQJb3ab-OKZxFEYz64nOS6
 
 DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 #ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '.onrender.com,localhost,127.0.0.1,164.90.221.86').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1,164.90.221.86').split(',')
+CSRF_TRUSTED_ORIGINS = ['164.90.221.86']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
