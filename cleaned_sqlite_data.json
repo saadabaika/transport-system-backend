@@ -1,0 +1,3071 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-10-30T08:48:44.071Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Casablanca - Ain Sbaa (50 DH)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-10-30T08:49:02.784Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Casablanca - Sidi Momen (50 DH)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-10-30T12:46:05.358Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "fes (200 DH)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add camion",
+      "content_type": 6,
+      "codename": "add_camion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change camion",
+      "content_type": 6,
+      "codename": "change_camion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete camion",
+      "content_type": 6,
+      "codename": "delete_camion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view camion",
+      "content_type": 6,
+      "codename": "view_camion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add client",
+      "content_type": 7,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change client",
+      "content_type": 7,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete client",
+      "content_type": 7,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view client",
+      "content_type": 7,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add destination",
+      "content_type": 8,
+      "codename": "add_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change destination",
+      "content_type": 8,
+      "codename": "change_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete destination",
+      "content_type": 8,
+      "codename": "delete_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view destination",
+      "content_type": 8,
+      "codename": "view_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add employe",
+      "content_type": 9,
+      "codename": "add_employe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change employe",
+      "content_type": 9,
+      "codename": "change_employe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete employe",
+      "content_type": 9,
+      "codename": "delete_employe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view employe",
+      "content_type": 9,
+      "codename": "view_employe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add transporteur externe",
+      "content_type": 10,
+      "codename": "add_transporteurexterne"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change transporteur externe",
+      "content_type": 10,
+      "codename": "change_transporteurexterne"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete transporteur externe",
+      "content_type": 10,
+      "codename": "delete_transporteurexterne"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view transporteur externe",
+      "content_type": 10,
+      "codename": "view_transporteurexterne"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 11,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 11,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 11,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 11,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add charge camion",
+      "content_type": 12,
+      "codename": "add_chargecamion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change charge camion",
+      "content_type": 12,
+      "codename": "change_chargecamion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete charge camion",
+      "content_type": 12,
+      "codename": "delete_chargecamion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view charge camion",
+      "content_type": 12,
+      "codename": "view_chargecamion"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add facture",
+      "content_type": 13,
+      "codename": "add_facture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change facture",
+      "content_type": 13,
+      "codename": "change_facture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete facture",
+      "content_type": 13,
+      "codename": "delete_facture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view facture",
+      "content_type": 13,
+      "codename": "view_facture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add ligne facture",
+      "content_type": 14,
+      "codename": "add_lignefacture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change ligne facture",
+      "content_type": 14,
+      "codename": "change_lignefacture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete ligne facture",
+      "content_type": 14,
+      "codename": "delete_lignefacture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view ligne facture",
+      "content_type": 14,
+      "codename": "view_lignefacture"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add trajet",
+      "content_type": 15,
+      "codename": "add_trajet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change trajet",
+      "content_type": 15,
+      "codename": "change_trajet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete trajet",
+      "content_type": 15,
+      "codename": "delete_trajet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view trajet",
+      "content_type": 15,
+      "codename": "view_trajet"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add paiement sous traitance",
+      "content_type": 16,
+      "codename": "add_paiementsoustraitance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change paiement sous traitance",
+      "content_type": 16,
+      "codename": "change_paiementsoustraitance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete paiement sous traitance",
+      "content_type": 16,
+      "codename": "delete_paiementsoustraitance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view paiement sous traitance",
+      "content_type": 16,
+      "codename": "view_paiementsoustraitance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add Token",
+      "content_type": 17,
+      "codename": "add_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change Token",
+      "content_type": 17,
+      "codename": "change_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete Token",
+      "content_type": 17,
+      "codename": "delete_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view Token",
+      "content_type": 17,
+      "codename": "view_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add Token",
+      "content_type": 18,
+      "codename": "add_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change Token",
+      "content_type": 18,
+      "codename": "change_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete Token",
+      "content_type": 18,
+      "codename": "delete_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view Token",
+      "content_type": 18,
+      "codename": "view_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add declaration tva",
+      "content_type": 19,
+      "codename": "add_declarationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change declaration tva",
+      "content_type": 19,
+      "codename": "change_declarationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete declaration tva",
+      "content_type": 19,
+      "codename": "delete_declarationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view declaration tva",
+      "content_type": 19,
+      "codename": "view_declarationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add Opération TVA",
+      "content_type": 20,
+      "codename": "add_operationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change Opération TVA",
+      "content_type": 20,
+      "codename": "change_operationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete Opération TVA",
+      "content_type": 20,
+      "codename": "delete_operationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view Opération TVA",
+      "content_type": 20,
+      "codename": "view_operationtva"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add Solde Transporteur",
+      "content_type": 21,
+      "codename": "add_soldetransporteur"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change Solde Transporteur",
+      "content_type": 21,
+      "codename": "change_soldetransporteur"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete Solde Transporteur",
+      "content_type": 21,
+      "codename": "delete_soldetransporteur"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view Solde Transporteur",
+      "content_type": 21,
+      "codename": "view_soldetransporteur"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "gestion",
+      "model": "camion"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "gestion",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "gestion",
+      "model": "destination"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "gestion",
+      "model": "employe"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "gestion",
+      "model": "transporteurexterne"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "gestion",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "gestion",
+      "model": "chargecamion"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "gestion",
+      "model": "facture"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "gestion",
+      "model": "lignefacture"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "gestion",
+      "model": "trajet"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "gestion",
+      "model": "paiementsoustraitance"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "token"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "tokenproxy"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "gestion",
+      "model": "declarationtva"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "gestion",
+      "model": "operationtva"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "gestion",
+      "model": "soldetransporteur"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b34b2hcyi71qi03ubuww4tfs3x1dwka6",
+    "fields": {
+      "session_data": ".eJwFwcENgDAIAMBdmACFSnGZBgqmb2tfxt29e6HZekZbM-82bA444XCOQFLMrTMLbR6iumdN7UzuSW6XdVYRlOAMx8painGphYzg-wGYZhl6:1vDklR:0m60DW7t35dmJie7wFLqz-h6q48r6K2ZiL91ZSCt9rY",
+      "expire_date": "2025-11-11T14:33:33.753Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bi0b2d9h83srmtfnz3oqxwit4buopmyh",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCgtIBL956BDMOMVA0kpV0Z765NutDtf-_9l4iwrSVunZY4Z3EWWpx-twT4oLqDfId6axJbXZc5yV2RB-3y2jI9L4f7d1Cgl2-dslITGjPBCMBkArJmF4zzbA1pDuzsELz3rLTzmIkcjo4NZ7R-wEG8P_JIOFI:1vD2Oz:v62lxNNf_ikJ3u2Ol6ZT60IIXsodUMHfX4m0oEhFplY",
+      "expire_date": "2025-11-09T15:11:25.562Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "cikbyq4urn5nixbm7r2oqzhjobnqll21",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hCwAx1cuu8ZyAwMUjVtUtqV8e7apAvd_vfef6lI21rj1mSJY1YXZdXpd2NKD5l2kO803Wad5mldRta7og_a9DBneV4P9--gUqvfmhHFYbICDAIdFwLDNiAY8D4jMbriTC9dKD4EF6TLgdglmwqce8zq_QHlrjfz:1vIVSR:w_U4v-nYUNWQ2bDCcXeqopAd98hgdgypQ8xkhvJohP4",
+      "expire_date": "2025-11-24T17:13:35.196Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dji3gf0rgqt3deq0jrb7m78ymztwxna9",
+    "fields": {
+      "session_data": ".eJwFwUESgCAIAMC_-AIDEukzDiKM58xT09_bfVPT_cy2l99t6prpSuEDPehUwAOqBoVZR-PKApl7zeRxDuwQMrJ41ByCRQmErRhR-n6xjxnm:1vMwUP:92fMY_faOS2X7YQSSD1QXytkXBCABOOa71HtvDKXWMY",
+      "expire_date": "2025-12-06T22:53:57.311Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "g4bhscbzkj3ager9o5od3q999i35dv1d",
+    "fields": {
+      "session_data": ".eJwFwcERgCAMBMBeqCAxgmAzzBGO4S36cuzd3TdUPPesz-JVJ9YMZ2CJUOlFjF3TPujaSKWPZltRRPExELVZyTkCSIc4ndYU2rOE7we6Jxqk:1vDkqq:b7zFWnbHJIYgUi5U5II_36laIGdsPEuVJGXD4F6CFlM",
+      "expire_date": "2025-11-11T14:39:08.088Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "mnz78z9kxt79s04yf9xaun7tsly09vwp",
+    "fields": {
+      "session_data": ".eJwNxkESgCAIAMC_8AISBO0zjqKM58xT099rT_tAqfueZa9xlVnXhBOyeBzKFqIMqp1IsSkzBw94IJmGgxr9lWQ4kKRLNuWW0Fy7Z3g_ZdcYdw:1vMwTN:StLJ4BSAYswYp7MjNYrFJcUcLTrO0QXY_cwu4vmuaWM",
+      "expire_date": "2025-12-06T22:52:53.406Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ul506bpzc0qfwn9zcnv0ct8n7me4x0qx",
+    "fields": {
+      "session_data": ".eJwNyUESgCAIAMC_8AIxUegzDiqM58xT099rr_tA1X3PupdddeqacIJHCoWDdhwclY2Kxp7EiGioSHbrLXuh4YcK0kC0PzOnZJ4bCrwfmQ0ZwA:1vMwWc:nk0hnIxbErIwYi_Tqo-Yx0EJlBvxXJzMmmSMxtKvjhM",
+      "expire_date": "2025-12-06T22:56:14.448Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "usjk02p0k6srbe13cg8aechopo3ogpv4",
+    "fields": {
+      "session_data": ".eJwFwUESgCAIAMC_8AJBAekzDhmO58xT09_bfaH5fmbbK-42fU04QCg4soSERlXuvQxCvpRSrRiGymmc5UQhI8WcPDM7uXnG4GIC3w93PBhY:1vMwW2:BTLSwHT245Iq_4fM-FHbI6e8s7dDiq-m7PzTcOpkeHk",
+      "expire_date": "2025-12-06T22:55:38.323Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "5f56302350d3c2d6a9065e3a9ab6e3e1a0281ec5",
+    "fields": {
+      "user": 4,
+      "created": "2025-10-26T16:04:20.042Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "6444a7a893bd2b52ecc409f491cb721fea253208",
+    "fields": {
+      "user": 6,
+      "created": "2025-11-22T16:02:50.209Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "b7f7dc73459454b604a9b789a0538894539abc5f",
+    "fields": {
+      "user": 1,
+      "created": "2025-10-26T15:36:46.134Z"
+    }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "cfa57fc80210d4b08ea1a9c989a61ec3242a9753",
+    "fields": {
+      "user": 3,
+      "created": "2025-10-28T13:53:47.884Z"
+    }
+  },
+  {
+    "model": "gestion.transporteurexterne",
+    "pk": 1,
+    "fields": {
+      "nom": "hajj adil",
+      "ice": "000",
+      "telephone": "0000",
+      "email": "",
+      "adresse": "",
+      "statut": "actif"
+    }
+  },
+  {
+    "model": "gestion.transporteurexterne",
+    "pk": 3,
+    "fields": {
+      "nom": "youness youbo",
+      "ice": "00",
+      "telephone": "066",
+      "email": "",
+      "adresse": "",
+      "statut": "actif"
+    }
+  },
+  {
+    "model": "gestion.camion",
+    "pk": 2,
+    "fields": {
+      "immatriculation": "VOLVO 43083-A-40",
+      "marque": "volvo",
+      "modele": "volvo",
+      "date_mise_service": "2003-10-29",
+      "statut": "actif",
+      "type_propriete": "interne",
+      "transporteur_externe": null
+    }
+  },
+  {
+    "model": "gestion.camion",
+    "pk": 4,
+    "fields": {
+      "immatriculation": "DAF 88847-B-1",
+      "marque": "DAF",
+      "modele": "DAF",
+      "date_mise_service": "2001-10-10",
+      "statut": "actif",
+      "type_propriete": "interne",
+      "transporteur_externe": null
+    }
+  },
+  {
+    "model": "gestion.camion",
+    "pk": 5,
+    "fields": {
+      "immatriculation": "DAF 31761-A-57",
+      "marque": "DAF",
+      "modele": "DAF",
+      "date_mise_service": "2025-11-01",
+      "statut": "actif",
+      "type_propriete": "interne",
+      "transporteur_externe": null
+    }
+  },
+  {
+    "model": "gestion.camion",
+    "pk": 6,
+    "fields": {
+      "immatriculation": "DAF 7757-A-42",
+      "marque": "DAF",
+      "modele": "DAF",
+      "date_mise_service": "2025-11-01",
+      "statut": "actif",
+      "type_propriete": "interne",
+      "transporteur_externe": null
+    }
+  },
+  {
+    "model": "gestion.employe",
+    "pk": 2,
+    "fields": {
+      "type_employe": "chauffeur",
+      "nom": "BASRI",
+      "prenom": "BASRI",
+      "telephone": "",
+      "salaire_base": "5000.00",
+      "statut": "actif",
+      "date_embauche": "2025-10-30"
+    }
+  },
+  {
+    "model": "gestion.employe",
+    "pk": 3,
+    "fields": {
+      "type_employe": "chauffeur",
+      "nom": "abderahim",
+      "prenom": "abderahim",
+      "telephone": "",
+      "salaire_base": "5000.00",
+      "statut": "actif",
+      "date_embauche": "2025-10-30"
+    }
+  },
+  {
+    "model": "gestion.employe",
+    "pk": 4,
+    "fields": {
+      "type_employe": "salarie",
+      "nom": "youssed",
+      "prenom": "sabil",
+      "telephone": "",
+      "salaire_base": "4000.00",
+      "statut": "actif",
+      "date_embauche": "2025-10-30"
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 1,
+    "fields": {
+      "nom": "MELBA TRANS",
+      "ice": "001530023000030",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 2,
+    "fields": {
+      "nom": "SINOFRA GROUP",
+      "ice": "002944255000010",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 3,
+    "fields": {
+      "nom": "SMART PRODUCTS CASABLANCA",
+      "ice": "002345466000032",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 4,
+    "fields": {
+      "nom": "PNEUMATIQUES ATTACHARROUK II KM",
+      "ice": "000101989000030",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 5,
+    "fields": {
+      "nom": "hhhh",
+      "ice": "00000",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.client",
+    "pk": 6,
+    "fields": {
+      "nom": "saadml",
+      "ice": "1234",
+      "adresse": "",
+      "telephone": "",
+      "email": ""
+    }
+  },
+  {
+    "model": "gestion.destination",
+    "pk": 1,
+    "fields": {
+      "ville": "Casablanca - Ain Sbaa",
+      "frais_deplacement": "50.00"
+    }
+  },
+  {
+    "model": "gestion.destination",
+    "pk": 2,
+    "fields": {
+      "ville": "Casablanca - Sidi Momen",
+      "frais_deplacement": "50.00"
+    }
+  },
+  {
+    "model": "gestion.destination",
+    "pk": 3,
+    "fields": {
+      "ville": "fes",
+      "frais_deplacement": "200.00"
+    }
+  },
+  {
+    "model": "gestion.destination",
+    "pk": 4,
+    "fields": {
+      "ville": "fkih ben saleh",
+      "frais_deplacement": "140.00"
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 1,
+    "fields": {
+      "date": "2025-10-30",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 1,
+      "destination": 3,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "goml145236",
+      "prix_trajet": "1000.00",
+      "frais_deplacement": "200.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{\"gardienne\": 20.0}",
+      "total_frais_supplementaires": "20.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 2,
+    "fields": {
+      "date": "2025-10-30",
+      "camion": null,
+      "chauffeur": null,
+      "client": 1,
+      "destination": 3,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "hjfdjdjd",
+      "prix_trajet": "1200.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "non_facture",
+      "type_service": "arn_logistique",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "1000.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 3,
+    "fields": {
+      "date": "2025-10-29",
+      "camion": 2,
+      "chauffeur": 2,
+      "client": 2,
+      "destination": 2,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "dsjjd453",
+      "prix_trajet": "950.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_recois",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{\"police\": 40.0}",
+      "total_frais_supplementaires": "40.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 4,
+    "fields": {
+      "date": "2025-10-30",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 4,
+      "destination": 4,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "moklkk12365",
+      "prix_trajet": "2000.00",
+      "frais_deplacement": "140.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 5,
+    "fields": {
+      "date": "2025-11-05",
+      "camion": null,
+      "chauffeur": null,
+      "client": 1,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "AKUM789456",
+      "prix_trajet": "1000.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "900.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 6,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 3,
+      "client": 1,
+      "destination": 2,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "MSMU45786",
+      "prix_trajet": "1200.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_recois",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 7,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": null,
+      "chauffeur": null,
+      "client": 1,
+      "destination": 3,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "MLKJ4587",
+      "prix_trajet": "1000.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "850.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 8,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": null,
+      "chauffeur": null,
+      "client": 3,
+      "destination": 4,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "AZER47856",
+      "prix_trajet": "2000.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "1800.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 9,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": null,
+      "chauffeur": null,
+      "client": 1,
+      "destination": 4,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "MLK",
+      "prix_trajet": "0.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 10,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 2,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "ddd555",
+      "prix_trajet": "5555.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{\"fff\": 44.0}",
+      "total_frais_supplementaires": "44.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 11,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 4,
+      "destination": 3,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "ll4563",
+      "prix_trajet": "785.00",
+      "frais_deplacement": "200.00",
+      "type_trajet": "facture",
+      "type_service": "arn_logistique",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 12,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 2,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "78556mllk",
+      "prix_trajet": "7853.99",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 13,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 2,
+      "chauffeur": 3,
+      "client": 4,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "ddd452",
+      "prix_trajet": "400.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 14,
+    "fields": {
+      "date": "2025-11-11",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 1,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "UIO4785",
+      "prix_trajet": "20000.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "arn_logistique",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 15,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 1,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "AZZ4756986",
+      "prix_trajet": "40000.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "interne",
+      "transporteur_externe": null,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "non_paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 17,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 2,
+      "destination": 2,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "reda14525",
+      "prix_trajet": "1000.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_recois",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 18,
+    "fields": {
+      "date": "2025-11-13",
+      "camion": 4,
+      "chauffeur": 2,
+      "client": 1,
+      "destination": 1,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "MSMU8898103",
+      "prix_trajet": "1800.00",
+      "frais_deplacement": "50.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_recois",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 19,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": null,
+      "chauffeur": null,
+      "client": 2,
+      "destination": 3,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "jkm1234",
+      "prix_trajet": "399.99",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "ars_distribution",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.trajet",
+    "pk": 20,
+    "fields": {
+      "date": "2025-11-10",
+      "camion": null,
+      "chauffeur": null,
+      "client": 4,
+      "destination": 4,
+      "n_conteneurs": 1,
+      "numeros_conteneurs": "AAAA111",
+      "prix_trajet": "1000.00",
+      "frais_deplacement": "0.00",
+      "type_trajet": "facture",
+      "type_service": "arn_logistique",
+      "type_sous_traitance": "je_donne",
+      "transporteur_externe": 1,
+      "prix_sous_traitance": "0.00",
+      "statut_paiement_sous_traitance": "paye",
+      "frais_supplementaires": "{}",
+      "total_frais_supplementaires": "0.00",
+      "statut_paiement_frais": "non_paye",
+      "remarques": ""
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 3,
+    "fields": {
+      "numero_facture": "ARN-2025-11-0001",
+      "entreprise": "arn_logistique",
+      "client": 1,
+      "date_facture": "2025-11-16",
+      "date_echeance": "2025-12-16",
+      "statut": "payee",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "1800.00",
+      "total_ttc": "2160.00",
+      "montant_tva": "360.00",
+      "created_at": "2025-11-16T15:28:11.041Z",
+      "updated_at": "2025-11-17T13:55:46.569Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 5,
+    "fields": {
+      "numero_facture": "ARS-2025-11-0001",
+      "entreprise": "ars_distribution",
+      "client": 2,
+      "date_facture": "2025-11-16",
+      "date_echeance": "2025-12-16",
+      "statut": "envoyee",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "3500.00",
+      "total_ttc": "4200.00",
+      "montant_tva": "700.00",
+      "created_at": "2025-11-16T15:49:59.569Z",
+      "updated_at": "2025-11-17T13:54:01.113Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 6,
+    "fields": {
+      "numero_facture": "ARS-2025-11-0002",
+      "entreprise": "ars_distribution",
+      "client": 2,
+      "date_facture": "2025-11-17",
+      "date_echeance": "2025-12-17",
+      "statut": "envoyee",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "5400.00",
+      "total_ttc": "6048.00",
+      "montant_tva": "648.00",
+      "created_at": "2025-11-17T13:57:28.220Z",
+      "updated_at": "2025-11-17T13:57:28.220Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 7,
+    "fields": {
+      "numero_facture": "ARS-2025-11-0003",
+      "entreprise": "ars_distribution",
+      "client": 2,
+      "date_facture": "2025-11-17",
+      "date_echeance": "2025-12-17",
+      "statut": "envoyee",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "3600.00",
+      "total_ttc": "4320.00",
+      "montant_tva": "720.00",
+      "created_at": "2025-11-17T13:57:56.751Z",
+      "updated_at": "2025-11-17T13:57:56.751Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 8,
+    "fields": {
+      "numero_facture": "ARS-2025-11-0004",
+      "entreprise": "ars_distribution",
+      "client": 4,
+      "date_facture": "2025-11-17",
+      "date_echeance": "2025-12-17",
+      "statut": "envoyee",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "5300.00",
+      "total_ttc": "6360.00",
+      "montant_tva": "1060.00",
+      "created_at": "2025-11-17T14:19:56.680Z",
+      "updated_at": "2025-11-17T14:19:56.680Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 9,
+    "fields": {
+      "numero_facture": "ARS-2025-11-0005",
+      "entreprise": "ars_distribution",
+      "client": 4,
+      "date_facture": "2025-11-17",
+      "date_echeance": "2025-12-17",
+      "statut": "brouillon",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "2300.00",
+      "total_ttc": "2760.00",
+      "montant_tva": "460.00",
+      "created_at": "2025-11-17T14:20:24.805Z",
+      "updated_at": "2025-11-17T14:20:24.805Z"
+    }
+  },
+  {
+    "model": "gestion.facture",
+    "pk": 11,
+    "fields": {
+      "numero_facture": "ARN-2025-11-0002",
+      "entreprise": "arn_logistique",
+      "client": 5,
+      "date_facture": "2025-11-22",
+      "date_echeance": "2025-12-22",
+      "statut": "brouillon",
+      "conditions_paiement": "Paiement à 30 jours",
+      "notes": "",
+      "total_ht": "2100.00",
+      "total_ttc": "2520.00",
+      "montant_tva": "420.00",
+      "created_at": "2025-11-22T23:41:12.436Z",
+      "updated_at": "2025-11-22T23:41:12.436Z"
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 12,
+    "fields": {
+      "facture": 5,
+      "description": "hhhh",
+      "quantite": 1,
+      "prix_unitaire": "1400.00",
+      "tva": "20.00",
+      "montant_ht": "1400.00",
+      "montant_tva": "280.00",
+      "montant_ttc": "1680.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 13,
+    "fields": {
+      "facture": 5,
+      "description": "fes",
+      "quantite": 1,
+      "prix_unitaire": "2100.00",
+      "tva": "20.00",
+      "montant_ht": "2100.00",
+      "montant_tva": "420.00",
+      "montant_ttc": "2520.00",
+      "ordre": 1
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 15,
+    "fields": {
+      "facture": 3,
+      "description": "casa",
+      "quantite": 2,
+      "prix_unitaire": "900.00",
+      "tva": "20.00",
+      "montant_ht": "1800.00",
+      "montant_tva": "360.00",
+      "montant_ttc": "2160.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 16,
+    "fields": {
+      "facture": 6,
+      "description": "dd",
+      "quantite": 1,
+      "prix_unitaire": "5400.00",
+      "tva": "12.00",
+      "montant_ht": "5400.00",
+      "montant_tva": "648.00",
+      "montant_ttc": "6048.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 17,
+    "fields": {
+      "facture": 7,
+      "description": "fes",
+      "quantite": 1,
+      "prix_unitaire": "3600.00",
+      "tva": "20.00",
+      "montant_ht": "3600.00",
+      "montant_tva": "720.00",
+      "montant_ttc": "4320.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 18,
+    "fields": {
+      "facture": 8,
+      "description": "ss",
+      "quantite": 1,
+      "prix_unitaire": "4200.00",
+      "tva": "20.00",
+      "montant_ht": "4200.00",
+      "montant_tva": "840.00",
+      "montant_ttc": "5040.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 19,
+    "fields": {
+      "facture": 8,
+      "description": "fes",
+      "quantite": 1,
+      "prix_unitaire": "1100.00",
+      "tva": "20.00",
+      "montant_ht": "1100.00",
+      "montant_tva": "220.00",
+      "montant_ttc": "1320.00",
+      "ordre": 1
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 20,
+    "fields": {
+      "facture": 9,
+      "description": "casa",
+      "quantite": 1,
+      "prix_unitaire": "2300.00",
+      "tva": "20.00",
+      "montant_ht": "2300.00",
+      "montant_tva": "460.00",
+      "montant_ttc": "2760.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.lignefacture",
+    "pk": 24,
+    "fields": {
+      "facture": 11,
+      "description": "fes",
+      "quantite": 1,
+      "prix_unitaire": "2100.00",
+      "tva": "20.00",
+      "montant_ht": "2100.00",
+      "montant_tva": "420.00",
+      "montant_ttc": "2520.00",
+      "ordre": 0
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 5,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "vidange",
+      "description": "",
+      "montant": "2210.00",
+      "litres": null,
+      "kilometrage": null,
+      "prix_litre": null,
+      "date_charge": "2025-10-30",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-10-30T13:43:35.773Z",
+      "updated_at": "2025-10-30T13:43:35.773Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 7,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "5205.03",
+      "litres": "483.29",
+      "kilometrage": 412341,
+      "prix_litre": "10.770",
+      "date_charge": "2025-10-16",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-07T11:33:01.272Z",
+      "updated_at": "2025-11-07T11:33:01.272Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 8,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "5660.00",
+      "litres": "529.00",
+      "kilometrage": 413309,
+      "prix_litre": "10.699",
+      "date_charge": "2025-11-03",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-07T11:35:58.169Z",
+      "updated_at": "2025-11-07T11:35:58.169Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 9,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "10835.58",
+      "litres": "1015.54",
+      "kilometrage": 336664,
+      "prix_litre": "10.670",
+      "date_charge": "2025-11-04",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-07T11:37:12.276Z",
+      "updated_at": "2025-11-21T10:02:50.104Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 10,
+    "fields": {
+      "camion": 5,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "2766.00",
+      "litres": "251.92",
+      "kilometrage": 943507,
+      "prix_litre": "10.980",
+      "date_charge": "2025-11-20",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:47:26.344Z",
+      "updated_at": "2025-11-21T09:47:26.344Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 11,
+    "fields": {
+      "camion": 5,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "1508.41",
+      "litres": "137.88",
+      "kilometrage": 943885,
+      "prix_litre": "10.940",
+      "date_charge": "2025-11-21",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:48:30.131Z",
+      "updated_at": "2025-11-21T09:48:30.131Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 12,
+    "fields": {
+      "camion": 6,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "2660.00",
+      "litres": "242.23",
+      "kilometrage": 414681,
+      "prix_litre": "10.981",
+      "date_charge": "2025-11-20",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:51:31.386Z",
+      "updated_at": "2025-11-21T09:51:31.386Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 13,
+    "fields": {
+      "camion": 6,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "1627.54",
+      "litres": "148.77",
+      "kilometrage": 415139,
+      "prix_litre": "10.940",
+      "date_charge": "2025-11-21",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:52:27.875Z",
+      "updated_at": "2025-11-21T09:52:27.875Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 14,
+    "fields": {
+      "camion": 4,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "4202.10",
+      "litres": "383.19",
+      "kilometrage": 775171,
+      "prix_litre": "10.966",
+      "date_charge": "2025-11-20",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:53:58.724Z",
+      "updated_at": "2025-11-21T09:53:58.724Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 15,
+    "fields": {
+      "camion": 4,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "758.36",
+      "litres": "69.32",
+      "kilometrage": 775339,
+      "prix_litre": "10.940",
+      "date_charge": "2025-11-21",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:54:38.701Z",
+      "updated_at": "2025-11-21T09:57:08.980Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 16,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "418.28",
+      "litres": "37.32",
+      "kilometrage": 337493,
+      "prix_litre": "11.208",
+      "date_charge": "2025-11-20",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:58:26.736Z",
+      "updated_at": "2025-11-21T09:58:26.736Z"
+    }
+  },
+  {
+    "model": "gestion.chargecamion",
+    "pk": 17,
+    "fields": {
+      "camion": 2,
+      "type_charge": "mensuelle",
+      "categorie": "gazoil",
+      "description": "",
+      "montant": "1905.42",
+      "litres": "174.77",
+      "kilometrage": 338022,
+      "prix_litre": "10.902",
+      "date_charge": "2025-11-21",
+      "date_debut": null,
+      "date_fin": null,
+      "statut": "",
+      "created_at": "2025-11-21T09:59:34.622Z",
+      "updated_at": "2025-11-21T09:59:34.622Z"
+    }
+  },
+  {
+    "model": "gestion.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$bk3WducFBj8rQe5BAjXqQU$Wj7mnh/XmyMLx1hKyQ5yYQUnJIvmOTkcKFzDBKLsN6Q=",
+      "last_login": "2025-11-10T17:13:35.190Z",
+      "is_superuser": true,
+      "username": "saadabaika",
+      "first_name": "",
+      "last_name": "",
+      "email": "saadabaikaa@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-10-23T23:57:29.963Z",
+      "role": "admin",
+      "telephone": "0623947244",
+      "date_embauche": "2025-11-22",
+      "statut": "actif",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "gestion.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$kEC0wOSN4DIQYn0rjHyg49$cExxHzrMuZocMur9DQ8JmYJBapj3K7iLIWA25Vv2MMY=",
+      "last_login": "2025-10-26T14:11:16.156Z",
+      "is_superuser": false,
+      "username": "employe_test",
+      "first_name": "Marie",
+      "last_name": "Dubois",
+      "email": "employe@test.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-10-24T00:03:09.462Z",
+      "role": "employe",
+      "telephone": "0612345678",
+      "date_embauche": null,
+      "statut": "actif",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "gestion.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$GU47DintJibH5cSrCg3wNY$pdSCFiVixixwFT0IGEbkMsJarioCnpde1h3QvVkYtSU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test_final1",
+      "first_name": "",
+      "last_name": "",
+      "email": "final@test.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-10-26T16:04:19.741Z",
+      "role": "employe",
+      "telephone": "",
+      "date_embauche": "2025-11-01",
+      "statut": "actif",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "gestion.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$ljW88YGr6tJWLY8tfG6h6A$5+7+xIo24OzAKePy8r9FeoQZVnWIOlZYPGzGvTDbe5s=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nadiaadli",
+      "first_name": "nadia",
+      "last_name": "adli",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-11-15T17:05:37.395Z",
+      "role": "facturation",
+      "telephone": "0623947244",
+      "date_embauche": "2025-11-01",
+      "statut": "actif",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 15,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-30",
+      "date_valeur": "2025-11-13",
+      "libelle": "PNEUMATIQUE TACHAROUK",
+      "montant_ht": "6208.33",
+      "taux_tva": "20.00",
+      "montant_tva": "1241.67",
+      "montant_ttc": "7450.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "PNEUMATIQUE TACHAROUK",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:08:36.979Z",
+      "updated_at": "2025-11-13T11:54:33.806Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 18,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-11-13",
+      "date_valeur": "2025-11-13",
+      "libelle": "PNEUMATIQUE TACHAROUK",
+      "montant_ht": "24833.33",
+      "taux_tva": "20.00",
+      "montant_tva": "4966.67",
+      "montant_ttc": "29800.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "PNEUMATIQUE TACHAROUK",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:10:42.275Z",
+      "updated_at": "2025-11-13T11:11:27.162Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 19,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-07",
+      "date_valeur": "2025-11-13",
+      "libelle": "TRANSPORT",
+      "montant_ht": "43800.00",
+      "taux_tva": "12.00",
+      "montant_tva": "5256.00",
+      "montant_ttc": "49056.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:14:56.542Z",
+      "updated_at": "2025-11-13T11:14:56.542Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 20,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-01",
+      "date_valeur": "2025-10-01",
+      "libelle": "TRANSPORT",
+      "montant_ht": "9600.00",
+      "taux_tva": "12.00",
+      "montant_tva": "1152.00",
+      "montant_ttc": "10752.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:15:50.388Z",
+      "updated_at": "2025-11-14T08:56:46.061Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 21,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-11-13",
+      "date_valeur": "2025-11-13",
+      "libelle": "TRANSPORT",
+      "montant_ht": "9600.00",
+      "taux_tva": "12.00",
+      "montant_tva": "1152.00",
+      "montant_ttc": "10752.00",
+      "categorie": "divers",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:16:29.831Z",
+      "updated_at": "2025-11-13T11:16:29.831Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 22,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-07",
+      "date_valeur": "2025-10-07",
+      "libelle": "GAZOIL STATION ZOO",
+      "montant_ht": "64463.18",
+      "taux_tva": "10.00",
+      "montant_tva": "6446.32",
+      "montant_ttc": "70909.50",
+      "categorie": "carburant",
+      "reference": "",
+      "beneficiaire": "STATION ZOO",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:19:47.939Z",
+      "updated_at": "2025-11-13T11:19:47.939Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 23,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-04",
+      "date_valeur": "2025-10-04",
+      "libelle": "PIECE CAMION",
+      "montant_ht": "391.67",
+      "taux_tva": "20.00",
+      "montant_tva": "78.33",
+      "montant_ttc": "470.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "EMPIRE TRADING",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:21:02.257Z",
+      "updated_at": "2025-11-13T11:21:21.835Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 24,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-10",
+      "date_valeur": "2025-10-10",
+      "libelle": "FACTURE ORANGE",
+      "montant_ht": "207.50",
+      "taux_tva": "20.00",
+      "montant_tva": "41.50",
+      "montant_ttc": "249.00",
+      "categorie": "telecom_internet",
+      "reference": "",
+      "beneficiaire": "ORANGE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:23:29.580Z",
+      "updated_at": "2025-11-13T11:23:29.580Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 25,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-23",
+      "date_valeur": "2025-10-23",
+      "libelle": "PNEUMATIQUE TACHAROUK",
+      "montant_ht": "5000.00",
+      "taux_tva": "20.00",
+      "montant_tva": "1000.00",
+      "montant_ttc": "6000.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "PNEUMATIQUE TACHAROUK",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:25:46.882Z",
+      "updated_at": "2025-11-13T11:29:02.476Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 26,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-20",
+      "date_valeur": "2025-10-20",
+      "libelle": "batterie camion",
+      "montant_ht": "2666.67",
+      "taux_tva": "20.00",
+      "montant_tva": "533.33",
+      "montant_ttc": "3200.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "CASANORD",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:31:34.732Z",
+      "updated_at": "2025-11-13T11:31:34.732Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 27,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-28",
+      "date_valeur": "2025-10-28",
+      "libelle": "VISITE TECHNIQUE",
+      "montant_ht": "400.00",
+      "taux_tva": "20.00",
+      "montant_tva": "80.00",
+      "montant_ttc": "480.00",
+      "categorie": "controle_technique",
+      "reference": "",
+      "beneficiaire": "DEKRA",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:39:40.061Z",
+      "updated_at": "2025-11-13T11:39:40.061Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 28,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-15",
+      "date_valeur": "2025-10-15",
+      "libelle": "JAWAZ ADM",
+      "montant_ht": "416.67",
+      "taux_tva": "20.00",
+      "montant_tva": "83.33",
+      "montant_ttc": "500.00",
+      "categorie": "peage_autoroute",
+      "reference": "",
+      "beneficiaire": "ADM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:44:00.088Z",
+      "updated_at": "2025-11-13T11:44:00.088Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 29,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-02",
+      "date_valeur": "2025-10-02",
+      "libelle": "JAWAZ ADM",
+      "montant_ht": "416.67",
+      "taux_tva": "20.00",
+      "montant_tva": "83.33",
+      "montant_ttc": "500.00",
+      "categorie": "peage_autoroute",
+      "reference": "",
+      "beneficiaire": "ADM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:45:02.348Z",
+      "updated_at": "2025-11-13T11:45:02.348Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 30,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-01",
+      "date_valeur": "2025-10-01",
+      "libelle": "JAWAZ ADM",
+      "montant_ht": "416.67",
+      "taux_tva": "20.00",
+      "montant_tva": "83.33",
+      "montant_ttc": "500.00",
+      "categorie": "peage_autoroute",
+      "reference": "",
+      "beneficiaire": "ADM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:45:58.918Z",
+      "updated_at": "2025-11-13T11:45:58.918Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 31,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-01",
+      "date_valeur": "2025-10-01",
+      "libelle": "JAWAZ ADM",
+      "montant_ht": "416.67",
+      "taux_tva": "20.00",
+      "montant_tva": "83.33",
+      "montant_ttc": "500.00",
+      "categorie": "peage_autoroute",
+      "reference": "",
+      "beneficiaire": "ADM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:46:26.653Z",
+      "updated_at": "2025-11-13T11:46:26.653Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 32,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-01",
+      "date_valeur": "2025-10-01",
+      "libelle": "PNEUMATIQUE TACHAROUK",
+      "montant_ht": "5500.00",
+      "taux_tva": "20.00",
+      "montant_tva": "1100.00",
+      "montant_ttc": "6600.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "PNEUMATIQUE TACHAROUK",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T11:56:30.442Z",
+      "updated_at": "2025-11-13T11:56:30.442Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 33,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-27",
+      "date_valeur": "2025-10-27",
+      "libelle": "TRANSPORT",
+      "montant_ht": "3700.00",
+      "taux_tva": "12.00",
+      "montant_tva": "444.00",
+      "montant_ttc": "4144.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "BOCATTI MOTO",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T11:59:38.585Z",
+      "updated_at": "2025-11-13T11:59:38.585Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 34,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-28",
+      "date_valeur": "2025-10-28",
+      "libelle": "TRANSPORT",
+      "montant_ht": "2450.00",
+      "taux_tva": "12.00",
+      "montant_tva": "294.00",
+      "montant_ttc": "2744.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "CARROMA INDUSTRY",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T12:01:04.418Z",
+      "updated_at": "2025-11-13T12:01:25.619Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 35,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-20",
+      "date_valeur": "2025-10-20",
+      "libelle": "TRANSPORT",
+      "montant_ht": "38300.00",
+      "taux_tva": "12.00",
+      "montant_tva": "4596.00",
+      "montant_ttc": "42896.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "BUROPA",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T12:04:16.462Z",
+      "updated_at": "2025-11-13T12:04:16.462Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 36,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-06",
+      "date_valeur": "2025-10-06",
+      "libelle": "TRANSPORT",
+      "montant_ht": "7350.00",
+      "taux_tva": "12.00",
+      "montant_tva": "882.00",
+      "montant_ttc": "8232.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "CARROMA INDUSTRY",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T12:05:40.865Z",
+      "updated_at": "2025-11-13T12:05:40.865Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 37,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-10",
+      "date_valeur": "2025-10-10",
+      "libelle": "TRANSPORT",
+      "montant_ht": "32100.00",
+      "taux_tva": "12.00",
+      "montant_tva": "3852.00",
+      "montant_ttc": "35952.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "ARN",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T12:07:39.827Z",
+      "updated_at": "2025-11-13T12:07:39.827Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 38,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "credit",
+      "date_operation": "2025-10-06",
+      "date_valeur": "2025-10-06",
+      "libelle": "TRANSPORT",
+      "montant_ht": "56250.00",
+      "taux_tva": "12.00",
+      "montant_tva": "6750.00",
+      "montant_ttc": "63000.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "CARROMA INDUSTRY",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-13T12:09:07.961Z",
+      "updated_at": "2025-11-13T12:35:52.375Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 39,
+    "fields": {
+      "entreprise": "ars_distribution",
+      "type_operation": "debit",
+      "date_operation": "2025-10-01",
+      "date_valeur": "2025-10-01",
+      "libelle": "JAWAZ ADM",
+      "montant_ht": "416.67",
+      "taux_tva": "20.00",
+      "montant_tva": "83.33",
+      "montant_ttc": "500.00",
+      "categorie": "peage_autoroute",
+      "reference": "",
+      "beneficiaire": "ADM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-13T12:13:14.505Z",
+      "updated_at": "2025-11-13T12:13:14.505Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 41,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "credit",
+      "date_operation": "2025-10-06",
+      "date_valeur": "2025-10-06",
+      "libelle": "TRANSPORT",
+      "montant_ht": "4200.00",
+      "taux_tva": "12.00",
+      "montant_tva": "504.00",
+      "montant_ttc": "4704.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "MELBA TRANS",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-16T17:37:02.024Z",
+      "updated_at": "2025-11-16T17:37:02.024Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 42,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "credit",
+      "date_operation": "2025-10-08",
+      "date_valeur": "2025-10-08",
+      "libelle": "TRANSPORT",
+      "montant_ht": "78000.00",
+      "taux_tva": "12.00",
+      "montant_tva": "9360.00",
+      "montant_ttc": "87360.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "PNEUMATIQUE TACHAROUK",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-16T17:40:19.370Z",
+      "updated_at": "2025-11-16T17:40:55.250Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 43,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "credit",
+      "date_operation": "2025-10-15",
+      "date_valeur": "2025-10-15",
+      "libelle": "TRANSPORT",
+      "montant_ht": "4800.00",
+      "taux_tva": "20.00",
+      "montant_tva": "576.00",
+      "montant_ttc": "5376.00",
+      "categorie": "vente_client",
+      "reference": "",
+      "beneficiaire": "SINOFRA GROUP",
+      "statut_tva": "collectee",
+      "created_at": "2025-11-16T17:42:11.696Z",
+      "updated_at": "2025-11-16T17:42:11.699Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 44,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "debit",
+      "date_operation": "2025-10-23",
+      "date_valeur": "2025-10-23",
+      "libelle": "TRANSPORT",
+      "montant_ht": "9600.00",
+      "taux_tva": "12.00",
+      "montant_tva": "1152.00",
+      "montant_ttc": "10752.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-16T17:44:12.388Z",
+      "updated_at": "2025-11-16T17:44:12.388Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 45,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "debit",
+      "date_operation": "2025-10-09",
+      "date_valeur": "2025-10-09",
+      "libelle": "TRANSPORT",
+      "montant_ht": "13500.00",
+      "taux_tva": "12.00",
+      "montant_tva": "1620.00",
+      "montant_ttc": "15120.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-16T17:44:54.425Z",
+      "updated_at": "2025-11-16T17:44:54.425Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 46,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "debit",
+      "date_operation": "2025-10-10",
+      "date_valeur": "2025-10-10",
+      "libelle": "TRANSPORT",
+      "montant_ht": "32100.00",
+      "taux_tva": "12.00",
+      "montant_tva": "3852.00",
+      "montant_ttc": "35952.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "ARS",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-16T17:46:21.272Z",
+      "updated_at": "2025-11-16T17:46:21.272Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 47,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "debit",
+      "date_operation": "2025-10-20",
+      "date_valeur": "2025-10-20",
+      "libelle": "FACTURE IAM",
+      "montant_ht": "1113.28",
+      "taux_tva": "20.00",
+      "montant_tva": "222.66",
+      "montant_ttc": "1335.94",
+      "categorie": "telecom_internet",
+      "reference": "",
+      "beneficiaire": "MAROC TELECOM",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-16T17:47:43.177Z",
+      "updated_at": "2025-11-16T17:47:43.177Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.operationtva",
+    "pk": 48,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "type_operation": "debit",
+      "date_operation": "2025-10-07",
+      "date_valeur": "2025-10-07",
+      "libelle": "TRANSPORT",
+      "montant_ht": "19800.00",
+      "taux_tva": "12.00",
+      "montant_tva": "2376.00",
+      "montant_ttc": "22176.00",
+      "categorie": "achat_fournisseur",
+      "reference": "",
+      "beneficiaire": "SILVER RIDE",
+      "statut_tva": "deductible",
+      "created_at": "2025-11-16T17:48:49.054Z",
+      "updated_at": "2025-11-16T17:48:49.054Z",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "gestion.declarationtva",
+    "pk": 1,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "mois": 10,
+      "annee": 2024,
+      "tva_collectee": "0.00",
+      "tva_deductible": "0.00",
+      "tva_net_a_payer": "0.00",
+      "total_credits_ht": "0.00",
+      "total_debits_ht": "0.00",
+      "total_credits_ttc": "0.00",
+      "total_debits_ttc": "0.00",
+      "statut": "calculee",
+      "date_declaration": null,
+      "date_paiement": null,
+      "reference_dgi": "",
+      "created_at": "2025-10-31T12:11:09.863Z",
+      "updated_at": "2025-10-31T12:11:09.872Z"
+    }
+  },
+  {
+    "model": "gestion.declarationtva",
+    "pk": 2,
+    "fields": {
+      "entreprise": "arn_logistique",
+      "mois": 11,
+      "annee": 2025,
+      "tva_collectee": "240.00",
+      "tva_deductible": "0.00",
+      "tva_net_a_payer": "240.00",
+      "total_credits_ht": "1200.00",
+      "total_debits_ht": "0.00",
+      "total_credits_ttc": "1440.00",
+      "total_debits_ttc": "0.00",
+      "statut": "calculee",
+      "date_declaration": null,
+      "date_paiement": null,
+      "reference_dgi": "",
+      "created_at": "2025-11-12T12:48:57.446Z",
+      "updated_at": "2025-11-12T12:48:57.475Z"
+    }
+  }
+]

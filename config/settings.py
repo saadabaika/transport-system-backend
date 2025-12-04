@@ -17,7 +17,7 @@ SECRET_KEY = 'sEyqbNROphOD3VRSV9nxr6TObWuFL36X5MZ1ffS9MZycGQJb3ab-OKZxFEYz64nOS6
 
 DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 #ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '.onrender.com,localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '.onrender.com,localhost,127.0.0.1,164.90.221.86').split(',')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -47,7 +47,7 @@ CSRF_USE_SESSIONS = False
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 CSRF_TRUSTED_ORIGINS = [
     'https://transport-system-frontend-nsao.onrender.com',
     'https://transport-system-backend-7lv6.onrender.com',
@@ -73,24 +73,25 @@ TEMPLATES = [
         },
     },
 ]
-#DATABASES = {
-    #   'default': {
-    #        'ENGINE': 'django.db.backends.postgresql',
-    #        'NAME': 'gestion_transport',      # Le nom que vous venez de créer
-    #        'USER': 'postgres',               # Votre utilisateur PostgreSQL
-   #         'PASSWORD': 'hh', # Mot de passe de PostgreSQL
-   #         'HOST': 'localhost',
-   #         'PORT': '5432',
-  #     }
- #  }
-
 
 DATABASES = {
-    'default': {
-           'ENGINE': 'django.db.backends.sqlite3',
-           'NAME': BASE_DIR / 'db.sqlite3',
+       'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'gestion_transport',      # Le nom que vous venez de créer
+            'USER': 'saad',               # Votre utilisateur PostgreSQL
+            'PASSWORD': 'abaikaSaad@2000ars', # Mot de passe de PostgreSQL
+            'HOST': 'localhost',
+            'PORT': '',
        }
-  }
+   }
+
+
+#DATABASES = {
+ #   'default': {
+  #         'ENGINE': 'django.db.backends.sqlite3',
+   #        'NAME': BASE_DIR / 'db.sqlite3',
+   #    }
+ # }
 import os
 
 # Configuration PostgreSQL Render
